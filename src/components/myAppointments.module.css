@@ -1,0 +1,23 @@
+.outter {
+  display: inline-grid;
+  border: 1px solid gainsboro;
+  text-align: left;
+  box-shadow: 6px 6px 5px grey;
+}
+
+.text {
+  padding: 10px 20px 10px 20px;
+}
+
+.inner:nth-child(even) {
+  background: #ccc;
+}
+.inner:nth-child(odd) {
+  background: #fff;
+}
+
+.inner:hover {
+  cursor: pointer;
+  background-color: rgb(111, 0, 255);
+  color: white;
+}

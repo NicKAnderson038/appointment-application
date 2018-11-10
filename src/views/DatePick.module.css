@@ -1,0 +1,21 @@
+.footer {
+  padding-bottom: 10px;
+}
+
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.box {
+  min-width: 200px;
+  width: 200px;
+  border: solid 2px #222222;
+  border-radius: 5%;
+  padding: 10px 10px 10px 10px;
+  margin-left: 8px;
+  margin-right: 8px;
+  box-shadow: 6px 6px 5px grey;
+}

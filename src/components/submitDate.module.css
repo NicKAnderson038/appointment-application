@@ -1,0 +1,17 @@
+.activebtn {
+  color: black;
+  width: 100px;
+  background-color: blanchedalmond;
+  font-family: monospace;
+  border-radius: 5%;
+  cursor: pointer;
+}
+
+.inactivebtn {
+  color: black;
+  width: 100px;
+  background-color: gainsboro;
+  font-family: monospace;
+  border-radius: 5%;
+  cursor: not-allowed;
+}
